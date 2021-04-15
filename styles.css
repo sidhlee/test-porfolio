@@ -1,0 +1,48 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #2e2e2e;
+}
+
+svg text {
+  stroke: white;
+  text-transform: uppercase;
+  font-size: 8rem;
+  font-weight: bold;
+  stroke-width: 3;
+  -webkit-animation: animate-stroke 3s ease-in-out infinite alternate;
+  animation: animate-stroke 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes animate-stroke {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+  }
+}
+
+@keyframes animate-stroke {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
