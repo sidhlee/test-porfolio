@@ -12,13 +12,12 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: #2e2e2e;
+  font-family: 'Roboto Slab', serif;
+  background: #242424;
 }
 
 svg text {
-  stroke: white;
-  text-transform: uppercase;
+  stroke: rgb(97, 174, 184);
   font-size: 8rem;
   font-weight: bold;
   stroke-width: 3;
